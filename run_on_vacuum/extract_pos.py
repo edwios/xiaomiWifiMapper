@@ -135,7 +135,6 @@ def is_position2d(line) -> bool:
 if __name__ == "__main__":
     data_file = "/run/shm/PLAYER_fprintf.log"
     mylogger.config_logs()
-    #responses = read_file(data_file)
     responses = tail_file(data_file)
     print(responses)
 
